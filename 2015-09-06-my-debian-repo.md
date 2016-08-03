@@ -2,7 +2,9 @@
 layout: post
 title: My Own Debian Repo
 date: 2015-09-06
-tags: [linux,debian]
+tags:
+  - linux
+  - debian
 ---
 ```sudo apt-key adv --keyserver keys.gnupg.net --recv-keys F500D1CD732A5FEB``` to add key.
 
