@@ -2,7 +2,7 @@
 layout: post
 title: Mozc-Ut -- A Better Japanese Input Method On Linux
 date: 2015-09-14
-tags: [linux,Japanese]
+tags:
   - linux
   - Japanese
 ---
