@@ -6,7 +6,9 @@ tags:
   - linux
   - debian
 ---
-```sudo apt-key adv --keyserver keys.gnupg.net --recv-keys F500D1CD732A5FEB``` to add key.
+```wget http://repo.haguro.moe/dists/sid/Release.key
+sudo apt-key add - < Release.key
+sudo apt-get update``` to add key.
 
 Add ```deb http://repo.haguro.moe/ sid main``` to ```/etc/apt/sources.list```.
 
