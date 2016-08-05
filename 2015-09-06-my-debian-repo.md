@@ -17,7 +17,7 @@ Add ``deb http://repo.haguro.moe/ sid main`` to ``/etc/apt/sources.list``.
 
 This is my own debain repo,where packages are built in debian sid.
 
-# Package list:
+# Package list
 * baka-mplayer
 * libqtshadowsocks
 * mozc-ut
