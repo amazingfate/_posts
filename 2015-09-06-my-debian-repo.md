@@ -8,9 +8,7 @@ tags:
 ---
 ``` bash
 wget http://repo.haguro.moe/dists/sid/Release.key
-
 sudo apt-key add - < Release.key
-
 sudo apt-get update```
 to add key.
 
