@@ -6,6 +6,7 @@ tags:
   - linux
   - debian
 ---
+# How to use
 ``` bash
 wget http://repo.haguro.moe/dists/sid/Release.key
 sudo apt-key add - < Release.key
