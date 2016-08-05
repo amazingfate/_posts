@@ -6,11 +6,13 @@ tags:
   - linux
   - debian
 ---
-``wget http://repo.haguro.moe/dists/sid/Release.key``
+``` bash
+wget http://repo.haguro.moe/dists/sid/Release.key
 
-``sudo apt-key add - < Release.key``
+sudo apt-key add - < Release.key
 
-``sudo apt-get update`` to add key.
+sudo apt-get update```
+to add key.
 
 Add ``deb http://repo.haguro.moe/ sid main`` to ``/etc/apt/sources.list``.
 
