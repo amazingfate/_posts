@@ -14,8 +14,8 @@ tags:
 
   首先要实现一个可以接收请求的web程序，github的webhooks只是简单的发一个POST请求，所以这个也是相对简单，用python很快就写了一个：
 
-  ``` python
-  #!/usr/bin/python3
+``` python
+#!/usr/bin/python3
 
 import tornado.ioloop
 import tornado.web
@@ -52,6 +52,6 @@ application = tornado.web.Application([
 if __name__ == "__main__":
     application.listen(options.port)
     tornado.ioloop.IOLoop.instance().start()
-  ```
+```
 
   这里值得注意的是github发的请求本身对内容做了一层加密，详细请看[webhooks的文档](https://developer.github.com/webhooks/securing/)。我们需要在服务端按照同样的方式加密，这样就能得到与github发来一致的X-Hub-Signature。我是把在github设置的SECRET_TOKEN放在了服务器的环境变量里面。最后部署的时候遇到点坑，远程连接vps跑服务没啥问题，但是就算是加了&后台运行，在断开vps的连接后一致是失败，原来是断开连接后程序没有输出的地方了，最后加上nohup运行解决。
