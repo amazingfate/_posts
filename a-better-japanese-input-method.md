@@ -21,4 +21,4 @@ If you're an archlinux user, you can install mozc-ut from [aur](https://aur.arch
 
 If you're an opensuse user, you can add my [repo](http://download.opensuse.org/repositories/home:/amazingfate/).
 
-If you're a debian user, you can add [my debian repo](https://blog.haguro.moe/2015/09/06/2015-09-06-my-debian-repo/).
+If you're a debian user, you can add [my debian repo](https://blog.haguro.moe/2015/09/06/my-debian-repo/).
